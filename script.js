@@ -15,3 +15,6 @@ const closeModal = function () {
 
 for (let i = 0; i < btnOpenModal.length; i++)
   btnOpenModal[i].addEventListener('click', openModal)
+
+btnCloseModal.addEventListener('click', closeModal)
+overlay.addEventListener('click', closeModal)
