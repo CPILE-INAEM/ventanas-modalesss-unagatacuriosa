@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "scp -P 22123 /home/alumno/Escritorio/Trabajos/JavaScript/ventanas-modalesss-unagatacuriosa/* gabi@gabi.certweb.infenlaces.com:/home/gabi/gabiphp/sitiophp/Ventanas-Modales/"
   },
   "author": "",
   "license": "ISC",
